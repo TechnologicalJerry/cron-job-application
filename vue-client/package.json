@@ -1,0 +1,35 @@
+{
+  "name": "cron-job-application",
+  "private": true,
+  "type": "module",
+  "description": "Cron job application.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologicaljerry/cron-job-application.git"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "technojerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technologicaljerry/cron-job-application/issues"
+  },
+  "homepage": "https://github.com/technologicaljerry/cron-job-application#readme",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "cron-job-application": "file:",
+    "nuxt": "^3.15.4",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
